@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Direct Video Downloader</title>
+    <meta name="description" content="Download video files from direct MP4 or media URLs." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <div class="app-card">
+        <header class="topbar">
+          <div class="logo-wrap">
+            <div class="logo-mark">↓</div>
+            <span>Direct Video Downloader</span>
+          </div>
+          <div class="status-pill">Ready</div>
+        </header>
+
+        <main class="content">
+          <section class="hero">
+            <div class="hero-copy">
+              <p class="eyebrow">Media Access Tool</p>
+              <h1>Download direct video links</h1>
+              <p class="subtitle">
+                Paste a direct video URL (for example, a .mp4 or media file URL) to download it instantly in your browser.
+              </p>
+            </div>
+          </section>
+
+          <section class="download-box" aria-label="Video downloader form">
+            <label class="label" for="videoUrl">Video URL</label>
+            <div class="input-row">
+              <input
+                id="videoUrl"
+                type="url"
+                placeholder="https://example.com/video.mp4"
+                autocomplete="off"
+              />
+              <button id="downloadBtn" class="primary-btn">Download</button>
+            </div>
+
+            <div class="helper-row">
+              <span class="helper-badge">Supported</span>
+              <span class="helper-text">MP4, MOV, WebM and direct media links</span>
+            </div>
+          </section>
+
+          <section class="card-grid">
+            <article class="mini-card">
+              <span class="mini-title">Format</span>
+              <strong>Direct URL</strong>
+            </article>
+            <article class="mini-card">
+              <span class="mini-title">Mode</span>
+              <strong>Browser-based</strong>
+            </article>
+            <article class="mini-card">
+              <span class="mini-title">Use</span>
+              <strong>Authorized content only</strong>
+            </article>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

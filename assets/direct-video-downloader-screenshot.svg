@@ -1,0 +1,60 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Direct Video Downloader Screenshot</title>
+  <desc id="desc">A modern dark interface for a video downloader website.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1120"/>
+      <stop offset="100%" stop-color="#141d2d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3ec7ff"/>
+      <stop offset="100%" stop-color="#7d7aff"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="150" cy="120" r="260" fill="#7d7aff" opacity="0.15"/>
+  <circle cx="1020" cy="760" r="260" fill="#3ec7ff" opacity="0.12"/>
+
+  <g filter="url(#shadow)">
+    <rect x="110" y="80" width="980" height="740" rx="28" fill="rgba(17,22,32,0.8)" stroke="rgba(255,255,255,0.08)"/>
+  </g>
+
+  <g transform="translate(160,130)">
+    <rect x="0" y="0" width="48" height="48" rx="14" fill="url(#accent)"/>
+    <text x="24" y="32" font-size="28" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif">↓</text>
+
+    <text x="70" y="30" font-size="28" fill="#edf6ff" font-family="Arial, Helvetica, sans-serif" font-weight="700">Direct Video Downloader</text>
+    <rect x="770" y="0" width="115" height="38" rx="19" fill="rgba(126,241,180,0.12)" stroke="rgba(126,241,180,0.2)"/>
+    <text x="827" y="26" text-anchor="middle" font-size="17" fill="#7ef1b4" font-family="Arial, Helvetica, sans-serif" font-weight="700">Ready</text>
+
+    <text x="0" y="120" font-size="52" fill="#edf6ff" font-family="Arial, Helvetica, sans-serif" font-weight="800">Download direct video links</text>
+    <text x="0" y="180" font-size="22" fill="#a6b6d0" font-family="Arial, Helvetica, sans-serif">Paste a direct video URL and download it securely in your browser.</text>
+
+    <rect x="0" y="245" width="770" height="72" rx="18" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="24" y="285" font-size="20" fill="#a6b6d0" font-family="Arial, Helvetica, sans-serif">https://example.com/video.mp4</text>
+    <rect x="790" y="245" width="170" height="72" rx="18" fill="url(#accent)"/>
+    <text x="875" y="290" text-anchor="middle" font-size="24" fill="#04131d" font-family="Arial, Helvetica, sans-serif" font-weight="800">Download</text>
+
+    <rect x="0" y="350" width="170" height="38" rx="19" fill="rgba(126,241,180,0.12)" stroke="rgba(126,241,180,0.2)"/>
+    <text x="85" y="376" text-anchor="middle" font-size="16" fill="#7ef1b4" font-family="Arial, Helvetica, sans-serif" font-weight="700">Supported</text>
+    <text x="190" y="376" font-size="18" fill="#a6b6d0" font-family="Arial, Helvetica, sans-serif">MP4, MOV, WebM and direct media links</text>
+
+    <g transform="translate(0,430)">
+      <rect x="0" y="0" width="230" height="110" rx="18" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)"/>
+      <text x="20" y="38" font-size="14" fill="#a6b6d0" font-family="Arial, Helvetica, sans-serif" letter-spacing="2">FORMAT</text>
+      <text x="20" y="76" font-size="26" fill="#edf6ff" font-family="Arial, Helvetica, sans-serif" font-weight="700">Direct URL</text>
+
+      <rect x="250" y="0" width="230" height="110" rx="18" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)"/>
+      <text x="270" y="38" font-size="14" fill="#a6b6d0" font-family="Arial, Helvetica, sans-serif" letter-spacing="2">MODE</text>
+      <text x="270" y="76" font-size="22" fill="#edf6ff" font-family="Arial, Helvetica, sans-serif" font-weight="700">Browser-based</text>
+
+      <rect x="500" y="0" width="300" height="110" rx="18" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)"/>
+      <text x="520" y="38" font-size="14" fill="#a6b6d0" font-family="Arial, Helvetica, sans-serif" letter-spacing="2">USE</text>
+      <text x="520" y="76" font-size="21" fill="#edf6ff" font-family="Arial, Helvetica, sans-serif" font-weight="700">Authorized content only</text>
+    </g>
+  </g>
+</svg>
